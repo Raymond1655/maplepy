@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>我就懶( v1.1.0 )</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>401</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>首頁</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> 1 .選擇職業</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>580</y>
+        <width>391</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>440</y>
+        <width>391</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 255, 127);</string>
+      </property>
+      <property name="text">
+       <string>開始</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>510</y>
+        <width>391</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 85, 127);</string>
+      </property>
+      <property name="text">
+       <string>停止</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>391</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>冒險家</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>夜使者</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>影舞者</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>暗影神偷</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>主教</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>冰雷魔導</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>火毒魔導</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>神射手</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>開拓者</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>箭神</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>龍騎士</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>黑騎士</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>聖騎士</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>槍神</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>拳霸</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>重砲指揮</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>雷普族</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>阿戴爾</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>亞克</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>伊利恩</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>卡莉</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>皇家</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>聖魂劍士</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>破風使者</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>暗夜使者</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>閃雷悍將</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>烈焰巫師</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>米哈逸</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>末日</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>惡魔復仇</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>惡魔殺手</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>傑諾</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>爆拳槍神</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>煉獄巫師</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>狂豹獵人</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>機甲戰神</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>英雄</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>夜光</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>龍魔導士</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>狂狼勇士</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>精靈遊俠</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>幻影俠盜</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>隱月</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>新星</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>天使破壞者</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>凱薩</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>卡蒂娜</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>卡殷</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>其他</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>請選擇職業</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>陰陽師</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>劍豪</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>菈菈</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>虎影</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>幻獸師</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>凱內西斯</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>神之子</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>2.選擇地圖</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>分頁</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
